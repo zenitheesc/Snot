@@ -1,0 +1,15 @@
+platform_stm32.h:38:13:delay_ms	16	static
+platform_stm32.h:175:16:uart_writeN	24	static
+platform_stm32.h:179:16:uart_readN	24	static
+ublox_neo8.c:15:6:ubx_checksum	24	static
+ublox_neo8.c:28:16:set_protocol	24	static
+ublox_neo8.c:47:16:set_model_mode	24	static
+ublox_neo8.c:57:13:disableNmea	48	static
+ublox_neo8.c:97:16:trigger	24	static
+ublox_neo8.c:110:16:get	32	static
+ublox_neo8.c:117:9:wait_for	32	static
+ublox_neo8.c:129:9:ublox_get	40	static
+ublox_neo8.c:175:6:ublox_check_fix	40	static
+ublox_neo8.c:243:9:ublox_init	16	static
+ublox_neo8.c:255:9:ublox_power_mode_setup	48	static
+ublox_neo8.c:272:9:ublox_power_management_request	40	static

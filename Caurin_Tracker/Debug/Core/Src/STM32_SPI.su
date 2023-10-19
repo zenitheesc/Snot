@@ -1,0 +1,4 @@
+STM32_SPI.c:11:19:SPI_read_register	16	static
+STM32_SPI.c:31:19:SPI_burst_read	16	static
+STM32_SPI.c:51:19:SPI_write_register	16	static
+STM32_SPI.c:69:19:SPI_burst_write	24	static
