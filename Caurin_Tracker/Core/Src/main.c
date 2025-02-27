@@ -346,6 +346,7 @@ HAL_StatusTypeDef telemetry_transmit(SX127X_t *SX127X, telemetry_packet_t packet
 
 	if(DIO0 && status == HAL_BUSY) {
 		printf("\nPacket has been sent successfully! :)");
+		DIO0 = false;
 		return HAL_OK;
 	}else{
 		printf("\nRadio took way too long, something went wrong :(");
